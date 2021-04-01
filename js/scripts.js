@@ -41,6 +41,8 @@ function ask(question){
 
     document.body.appendChild(replacementQuestion);
     replacementQuestion.innerHTML = 'You asked: ' + question;
+    askButton.innerHTML = 'Re-Roll';
+
 
     document.body.appendChild(answers);
     answers.innerHTML = `<img width="400px" src="resources/magic8ball_` + randomNumber + `.png">`;
