@@ -37,7 +37,6 @@ function ask(question){
     console.log(question);
     console.log('Answer: ' + randomNumber);
 
-    askButton.remove();
     inputQuestion.remove();
 
     document.body.appendChild(replacementQuestion);
